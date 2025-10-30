@@ -4,7 +4,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "description": "Dados de taxa de readmissão em até 30 dias por complicação por unidade Fhemig a partir de 2025.",
       "dialect": {
         "delimiter": ";"
       },
@@ -18,24 +18,28 @@
         "fields": [
           {
             "name": "unidade",
-            "type": "string"
+            "type": "string",
+            "description": "Siglas das unidades FHEMIG: CSSFA (Casa de Saúde São Francisco de Assis, em Bambuí); CSSFE (Casa de Saúde Santa Fé, em Três Corações); CSSI (Casa de Saúde Santa Izabel, em Betim); CHPB (Centro Hospitalar Psiquiátrico de Barbacena, em Barbacena); HAC (Hospital Alberto Cavalcanti, em Belo Horizonte); HCM (Hospital Cristiano Machado, em Sabará); HEM (Hospital Eduardo de Menezes, em Belo Horizonte); HIJPII (Hospital Infantil João Paulo II, em Belo Horizonte); HJXXIII (Hospital João XXIII, em Belo Horizonte); HJK (Hospital Júlia Kubitschek, em Belo Horizonte); HMAL (Hospital Maria Amélia Lins, em Belo Horizonte); HRAD (Hospital Regional Antônio Dias, em Patos de Minas); HRBJA (Hospital Regional de Barbacena Dr José Américo, em Barbacena); HRJP (Hospital Regional Dr João Penido, em Juiz de Fora); IRS (Instituto Raul Soares, em Belo Horizonte); MOV (Maternidade Odete Valadares, em Belo Horizonte); MGT (MG Transplantes)."
           },
           {
             "name": "ano",
-            "type": "integer"
+            "type": "integer",
+            "description": "Ano de referência."
           },
           {
             "name": "mes",
-            "type": "integer"
+            "type": "integer",
+            "description": "Mês de referência."
           },
           {
             "name": "tx_readmissao",
-            "type": "string"
+            "type": "string",
+            "description": "Taxa de readmissão em até 30 dias por complicação: calculada pelo nº de pacientes readmitidos no hospital no período, transcorridos até 30 dias da alta hospitalar, por uma complicação ou mesma causa da internação anterior de acordo com critérios de codificação DRG, dividido pelo total de pacientes com alta hospitalar no mesmo período (internações por câncer e obstetrícia são excluídas, pois podem integrar o plano de cuidado do paciente). "
           }
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Taxa de readmissão em até 30 dias por complicação a partir de 2025"
     }
   ],
   "title": "Taxa readmissao"
