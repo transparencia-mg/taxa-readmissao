@@ -1,0 +1,42 @@
+{
+  "name": "taxa-readmissao",
+  "owner_org": "fundacao-hospitalar-do-estado-de-minas-gerais-fhemig",
+  "profile": "data-package",
+  "resources": [
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "taxa-readmissao-2025",
+      "path": "data/taxa-readmissao-2025.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "unidade",
+            "type": "string"
+          },
+          {
+            "name": "ano",
+            "type": "integer"
+          },
+          {
+            "name": "mes",
+            "type": "integer"
+          },
+          {
+            "name": "tx_readmissao",
+            "type": "string"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    }
+  ],
+  "title": "Taxa readmissao"
+}
