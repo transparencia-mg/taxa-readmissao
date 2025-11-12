@@ -37,6 +37,12 @@ def convert_csv(file, aba=None):
                              else read_file[column][i] \
                              for i in range(0, len(read_file))]
 
+    # 🔹 Converte apenas a coluna 'valor' para texto com vírgula decimal
+    if "valor" in read_file.columns:
+        read_file["valor"] = read_file["valor"].apply(
+            lambda x: f"{x}".replace(".", ",") if pd.notnull(x) else ""
+        )
+        
     read_file.to_csv (f'dataset/data/{csv_name}.csv', \
                     index = None, \
                     header=True, \
