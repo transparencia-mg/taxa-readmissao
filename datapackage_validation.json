@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.022,
+  "time": 0.021,
   "errors": [],
   "tasks": [
     {
@@ -42,8 +42,8 @@
         "scheme": "file",
         "title": "Taxa de readmissão em até 30 dias por complicação a partir de 2025",
         "stats": {
-          "hash": "8e31374bce65b96b108a6c55deed7c09",
-          "bytes": 2736,
+          "hash": "d3d4329c7a4ce98a41f9636ab81bac24",
+          "bytes": 2918,
           "fields": 4,
           "rows": 90
         }
