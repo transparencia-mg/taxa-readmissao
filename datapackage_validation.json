@@ -42,10 +42,10 @@
         "scheme": "file",
         "title": "Taxa de readmissão em até 30 dias por complicação a partir de 2025",
         "stats": {
-          "hash": "d3d4329c7a4ce98a41f9636ab81bac24",
-          "bytes": 2918,
+          "hash": "6d60987bf12abff5e25244619921c7eb",
+          "bytes": 3367,
           "fields": 4,
-          "rows": 90
+          "rows": 110
         }
       },
       "time": 0.012,
