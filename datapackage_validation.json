@@ -5,7 +5,7 @@
   "tasks": [
     {
       "resource": {
-        "description": "Dados de taxa de readmissão em até 30 dias por complicação por unidade Fhemig a partir de 2025.",
+        "description": "Dados de taxa de readmissão em até 30 dias por complicação por unidade Fhemig.",
         "dialect": {
           "delimiter": ";"
         },
@@ -40,7 +40,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Taxa de readmissão em até 30 dias por complicação a partir de 2025",
+        "title": "Taxa de readmissão em até 30 dias por complicação",
         "stats": {
           "hash": "9f76c4b17816d827a29cafe47f540c6d",
           "bytes": 14746,
