@@ -27,4 +27,4 @@ resources:
           description: "Taxa de readmissão em até 30 dias por complicação: calculada pelo nº de pacientes readmitidos no hospital no período, transcorridos até 30 dias da alta hospitalar, por uma complicação ou mesma causa da internação anterior de acordo com critérios de codificação DRG, dividido pelo total de pacientes com alta hospitalar no mesmo período (internações por câncer e obstetrícia são excluídas, pois podem integrar o plano de cuidado do paciente). "
     scheme: file
     title: Taxa de readmissão em até 30 dias por complicação
-title: Taxa de Readmissão - até 30 dias por complicação
+title: Taxa de Readmissão em até 30 dias por complicação
