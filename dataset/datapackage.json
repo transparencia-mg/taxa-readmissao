@@ -4,7 +4,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Dados de taxa de readmissão em até 30 dias por complicação por unidade Fhemig.",
+      "description": "Dados de taxa de readmissão em até 30 dias por complicação por unidade FHEMIG.",
       "dialect": {
         "delimiter": ";"
       },
@@ -42,5 +42,5 @@
       "title": "Taxa de readmissão em até 30 dias por complicação"
     }
   ],
-  "title": "Taxa readmissao"
+  "title": "Taxa de Readmissão - até 30 dias por complicação"
 }
